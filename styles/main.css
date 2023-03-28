@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Inconsolata', monospace; */
+
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.18px;
+    font-family: 'Inconsolata', monospace;
+
+    padding: 0px 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 80px;
+
+    padding:80px ;
+}
+
+
+.page-content {
+    flex-basis: 50%;
+}
+
+
+.scarecrow img {
+    max-width: 530px;
+    width: 100%;
+}
+
+.page-content h2 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+}
+
+.page-content p {
+    font-size: 24px;
+    color: #4F4F4F;
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 64px;
+}
+
+.page-content button {
+    background-color: #333333;
+    border: none;
+    color: white;
+
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    padding: 24px 43px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    color:#BDBDBD;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 500;
+}
+
+footer p span{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:992px) {
+    .container{
+        flex-wrap: wrap;
+        padding: 24px;
+    }
+    .page-content{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
