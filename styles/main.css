@@ -80,6 +80,9 @@ footer p span{
 }
 
 @media screen and (max-width:992px) {
+    header{
+        padding: 0px 24px;
+    }
     .container{
         flex-wrap: wrap;
         padding: 24px;
