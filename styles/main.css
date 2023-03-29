@@ -14,7 +14,7 @@ header h1 {
     line-height: 25.18px;
     font-family: 'Inconsolata', monospace;
 
-    padding: 0px 80px;
+    padding: 40px 80px;
 }
 
 .container {
@@ -80,8 +80,8 @@ footer p span{
 }
 
 @media screen and (max-width:992px) {
-    header{
-        padding: 0px 24px;
+    header h1{
+        padding: 40px 24px;
     }
     .container{
         flex-wrap: wrap;
@@ -89,6 +89,6 @@ footer p span{
     }
     .page-content{
         flex-basis: 100%;
-        text-align: center;
+        /* text-align: center; */
     }
 }
